@@ -1,0 +1,1 @@
+MDB integrate with webpack-encore.

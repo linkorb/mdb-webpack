@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+
+  <link href="public/build/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <div style="height: 80vh">
+    <div class="flex-center flex-column">
+
+      <h1 class="text-hide animated fadeIn mb-4"
+        style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">
+        MDBootstrap</h1>
+      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+
+      <p class="animated fadeIn text-muted">MDB Team</p>
+
+      <br/>
+      <p class="animated fadeIn text-danger">Select Country sample</p>
+      <div class="row">
+        <div class="col-md-12">
+            <select class="mdb-select colorful-select dropdown-primary md-form" multiple searchable="Search here..">
+            <option value="" disabled selected>Choose your country</option>
+            <option value="1">USA</option>
+            <option value="2">Germany</option>
+            <option value="3">France</option>
+            <option value="4">Poland</option>
+            <option value="5">Japan</option>
+            </select>
+            <label class="mdb-main-label">Label example</label>
+            <button class="btn-save btn btn-primary btn-sm">Save</button>
+        </div>
+    </div>
+    </div>
+
+
+  </div>
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+
+    <script src="public/build/app.js" ></script>
+    <script type="text/javascript" >
+       document.addEventListener("DOMContentLoaded", function() {
+
+            $(document).ready(function() {
+                $('.mdb-select').materialSelect();
+            });
+        });
+  </script>
+</body>
+
+</html>
