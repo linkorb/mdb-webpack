@@ -6,7 +6,7 @@ global.$ = global.jQuery = $;
 import popper from 'popper.js';
 global.popper = global.Popper = popper;
 
-require('bootstrap');
+import 'mdbootstrap-pro/js/bootstrap.min.js';
 
 //import 'mdbootstrap-pro/css/mdb.min.css';
 
