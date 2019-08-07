@@ -8,4 +8,6 @@ $enable-rounded: true;
 @import '~mdbootstrap-pro/css/mdb.min.css';
 
 // Display standard bootstrap dropdowns
-.form-control { display: block !important; }
+.form-control {
+  &:not(.md-form) { display: block !important; }
+}
